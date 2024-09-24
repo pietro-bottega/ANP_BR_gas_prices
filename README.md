@@ -26,6 +26,7 @@ Open data from the "National Agency of Petroleum, Natural Gas and Biofuel" (tran
 - Pandas: used for data manipulation of SQL query output, CSV file, and others.
 - Geopy: used to calculate distance from cities to refinery, for Question 2
 - yfinance: Yahoo Finance data, used to get Crude Oil future options
+- Matplotlib, Seaborn: data visualization
 
 ## Results
 
