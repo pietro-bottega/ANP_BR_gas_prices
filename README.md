@@ -19,13 +19,13 @@ Open data from the "National Agency of Petroleum, Natural Gas and Biofuel" (tran
 ## Tools:
 
 ### Programming languages:
-    - SQL: used to query data from ANP data source, via "Base dos Dados" API
-    - Python: used for overall analysis in Jupyter Notebooks
+- SQL: used to query data from ANP data source, via "Base dos Dados" API
+- Python: used for overall analysis in Jupyter Notebooks
 
 ### Libraries:
-    - Pandas: used for data manipulation of SQL query output, CSV file, and others.
-    - Geopy: used to calculate distance from cities to refinery, for Question 2
-    - yfinance: Yahoo Finance data, used to get Crude Oil future options
+- Pandas: used for data manipulation of SQL query output, CSV file, and others.
+- Geopy: used to calculate distance from cities to refinery, for Question 2
+- yfinance: Yahoo Finance data, used to get Crude Oil future options
 
 ## Results
 
@@ -34,6 +34,7 @@ Open data from the "National Agency of Petroleum, Natural Gas and Biofuel" (tran
 ![Products](charts/price_by_product.png)
 
 Across most part of analyzed period, the median price of products is in descending order: Diesel, Gasoline, Ethanol.
+
 'Added Gasoline' is the product with broader variation in the sample. As a curiosity it also represents the highest price observation, of almost 10 BRL per liter.
 
 ### Are there significant price differences between cities in Brazil?
@@ -49,7 +50,10 @@ Note: It was used a geodesic method for calculating the shorter distance from th
 ![Timeseries of crude oil and gas](charts/oil_gas_timeseries.png)
 
 The benchmark being used to represent crude oil international prices is West Texas Intermediate (WTI), one of the most commonly used benchmarks. It is traded as future options with the "CL=F" ticker.
+
 Visually analysing the chart we see that Brazil gas prices follow a similar trend compared to Crude Oil price. However, an unexpected result is that Brazil gas price movements seem to antecipate Crude oil future options price movements.
+
 A annotation was added on the chart to appoint a possible reason for the visible spike around February, 2022.
+
 Until May, 2023, gas prices in Brazil were regulated to follow imports price, and keep in line with international prices. After that, gas prices started to be defined by other parameters. However, this policy change is not visible from the trend on chart.
 
