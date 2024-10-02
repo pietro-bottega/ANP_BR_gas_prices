@@ -32,7 +32,7 @@ Open data from the "National Agency of Petroleum, Natural Gas and Biofuel" (tran
 
 ### How do prices of different fuel compare?
 
-![Products](charts/price_by_product.png)
+![Products](price_by_product.png)
 
 Across most part of analyzed period, the median price of products is in descending order: Diesel, Gasoline, Ethanol.
 
@@ -40,7 +40,7 @@ Across most part of analyzed period, the median price of products is in descendi
 
 ### Are there significant price differences between cities in Brazil?
 
-![Distance to refinery regression](charts/distance_regression.png)
+![Distance to refinery regression](distance_regression.png)
 
 The predictor variable (geodesic distance to closest oil refinery) is statistically significant, as indicated by the p-value below 0.05. However the model does not explain much of the variability in the response variable, as indicated by the R-squared value only 15% of its variance is explained. There are other important variables no included in the model. One of them could be state taxes, for example.
 
@@ -48,7 +48,7 @@ Note: It was used a geodesic method for calculating the shorter distance from th
 
 ### How is the correlation between gasoline prices in Brazil and international crude oil price?
 
-![Timeseries of crude oil and gas](charts/oil_gas_timeseries.png)
+![Timeseries of crude oil and gas](oil_gas_timeseries.png)
 
 The benchmark being used to represent crude oil international prices is West Texas Intermediate (WTI), one of the most commonly used benchmarks. It is traded as future options with the "CL=F" ticker.
 
