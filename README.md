@@ -2,7 +2,7 @@
 
 ## Objective
 
-Understand different aspects regarding gas prices in Brazil. The guiding questions to be answered are the following:
+Understand different aspects regarding gasoline prices in Brazil. The guiding questions to be answered are the following:
 
 - **Question 1:** How do prices of different fuel types compare?
 - **Question 2:** Are there significant price differences between cities in Brazil? Can distance to refinery explain it?
@@ -46,15 +46,15 @@ The predictor variable (geodesic distance to closest oil refinery) is statistica
 
 Note: It was used a geodesic method for calculating the shorter distance from the city centroid to a refinery in Brazil. It is the distance on a curvature, considering that the Earth is not a perfect sphere (default:  WGS-84 ellipsoid). For a future improvement, it would be interesting to use a method that can take on considerating the path of roads, which would be closer to the transportation of gas from refinery to the city.
 
-### How is the correlation between gas prices in Brazil and international crude oil price?
+### How is the correlation between gasoline prices in Brazil and international crude oil price?
 
 ![Timeseries of crude oil and gas](charts/oil_gas_timeseries.png)
 
 The benchmark being used to represent crude oil international prices is West Texas Intermediate (WTI), one of the most commonly used benchmarks. It is traded as future options with the "CL=F" ticker.
 
-Visually analysing the chart we see that Brazil gas prices follow a similar trend compared to Crude Oil price. However, an unexpected result is that Brazil gas price movements seem to antecipate Crude oil future options price movements.
+Visually analysing the chart we see that Brazil gasoline prices follow a similar trend compared to Crude Oil price. However, an unexpected result is that Brazil gas price movements seem to antecipate Crude oil future options price movements.
 
 A annotation was added on the chart to appoint a possible reason for the visible spike around February, 2022.
 
-Until May, 2023, gas prices in Brazil were regulated to follow imports price, and keep in line with international prices. After that, gas prices started to be defined by other parameters. However, this policy change is not visible from the trend on chart.
+Until May, 2023, gasoline prices in Brazil were regulated to follow imports price, and keep in line with international prices. After that, gas prices started to be defined by other parameters. However, this policy change is not visible from the trend on chart.
 
